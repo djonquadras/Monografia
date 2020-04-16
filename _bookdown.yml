@@ -1,0 +1,3 @@
+book_filename: "Monografia"
+delete_merged_file: true
+output_dir: "docs"
