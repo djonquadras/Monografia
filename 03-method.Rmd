@@ -1,3 +1,11 @@
 # Metodologia
 
+@Waltl2018 Concorda com Wickham quato à metodolodia aplicada à ciência de dados, explicitando que as etapas são:
+
+- Aquisição dos Dados;
+- Pré-processamento dos dados;
+- Transformação dos Dados;
+- Treinamento e aplicação do modelo de Inteligência Artificial;
+- Interpretação e avaliação.
+
 Working on it :)

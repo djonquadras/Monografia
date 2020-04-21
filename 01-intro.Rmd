@@ -1,3 +1,6 @@
 # Introdução
 
-Working on it :)
+A idéia de formalizar os processos de tomada de decisão para que possam ser automatizados por algoritmos tem sido uma idéia atraente para muitos estudiosos e profissionais da área jurídica [@Waltl2018]. De fato, em 1991 Fiedler já defendia a utilização de sistemas inteligentes e a aplicação de técnicas de inteligência artificial (IA) nos sistemas jurídiculos em detrimento da utilização de sistemas puramente "organizadores".
+
+@Fiedler1991 defende que a utilização da lógica no direito é algo necessário e aproxima a ideia de lógica jurídica com a lógica matemática.
+

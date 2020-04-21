@@ -1,3 +1,44 @@
 # Revisão da Literatura
 
-Working on it :)
+## Citações Gerais
+
+@Saarenpaä2018 afirma que sistemas de informação devem sempre ser planejados para minizar o risco de erros humanos e, consequentemente, minimar os impactos dos erros.
+
+@Saarenpaä2018 afirma que há muitos tipos de advogados hoje, incluindo aqueles que aderem às novidades tecnológicas e aqueles que as rejeitam. O autor cita que rejeitar as novidades tecnológicas é um tremendo erro uma vez que "*nada é criado no vácuo*" e tudo necessita de uma influência.
+
+@Saarenpaä2018 defende que a lei e os advogados trabalham combinando premissas factuais e normativas.
+
+@Waltl2018 defendem sobre a Tomada de Decisão Algorítmica (TDA) e sugere que existe duas razões para sua aplicação: (1) a habilidade de entendimento fácil e consequente representação do conhecimento e (2) a explicabilidade e transparência de decisões.
+
+
+
+## Jurimetria e Informática Jurídica
+
+@Saarenpaä2018 afirma que a informática jurídica é mais do que uma simples especialização.
+
+@Waltl2018 dividem nas seguintes abordagens diferentes de raciocínio IA:
+
+- **Raciocínio Dedutivo**: sistemas de especialistas jurídicos, programação lógica clássica;
+- **Raciocínio Baseado em Casos**: indução de regras com base em casos anteriores e precedentes;
+- **Raciocínio Abdutivo**: vinculação semântica, encontrar explicações simples e prováveis;
+- **Raciocínio Viável**: lógicas não monotônicas e argumentação;
+- **Raciocínio Probabilístico**: lógica difusa, raciocínio em termos indeterminados e vagos;
+- **Raciocínio Sobre Ontologias**: representações formais do conhecimento, rede semântica;
+- **Raciocínio Estatístico**: incluindo abordagens de aprendizado de máquina (ML não supervisionado);
+- **Aprendizado Avançado de Máquina**: aprendizado ativo, interativo e de reforço.
+
+### Artigos que apresentam *softwares*
+
+Revisão
+
+### Proteção de dados
+
+Revisão
+
+## A Ciência de Dados
+
+@Waltl2018 alertam que os sistemas inteligentes e que regularmente são utilizados pela ciência de dados parecem muito com "caixas pretas" onde ocorre uma "mágica" que devolve um resultado surpreendente. Isso gera um desinteresse em compreender profundamente o que acontece por trás de toda a programação.
+
+### Modelos Estatísticos e de Inteligência Artificial
+
+Explicação dos modelos

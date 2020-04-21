@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Monografia.aux
+The style file: apalike.bst
+Database file #1: book.bib
+You've used 3 entries,
+            1935 wiz_defined-function locations,
+            493 strings with 4096 characters,
+and the built_in function-call counts, 1126 in all, are:
+= -- 111
+> -- 27
+< -- 4
++ -- 8
+- -- 8
+* -- 82
+:= -- 195
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 19
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 51
+empty$ -- 92
+format.name$ -- 13
+if$ -- 233
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 9
+pop$ -- 15
+preamble$ -- 1
+purify$ -- 19
+quote$ -- 0
+skip$ -- 39
+stack$ -- 0
+substring$ -- 81
+swap$ -- 8
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 18
+warning$ -- 0
+while$ -- 10
+width$ -- 0
+write$ -- 42
