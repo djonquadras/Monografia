@@ -10,9 +10,18 @@
 
 @Waltl2018 defendem sobre a Tomada de Decisão Algorítmica (TDA) e sugere que existe duas razões para sua aplicação: (1) a habilidade de entendimento fácil e consequente representação do conhecimento e (2) a explicabilidade e transparência de decisões.
 
+Na mesma linha de raciocínio da TDA, @liu2004 sugere a utilização do Raciocínio Baseado em Casos (RBC). Eles aplicaram tecologias de inteligência artificial para classificar dados e informações de julgamentos criminais em Taiwan.
+
+
 
 
 ## Jurimetria e Informática Jurídica
+
+Jurimetria como a aplicação de métodos quantitativos, geralmente a estatística, no direito [@Colombo2017].
+
+@Colombo2017 afirma que utilizar métodos quantitativos para analizar decições jurídicas torna possível identificar padrões e *outliers*, sendo, assim, possível prever a decisão de um processo.
+
+@Colombo2017 ressaltam um problema importante: os documentos e as informações nas diferentes cortes não são padronizados.
 
 @Saarenpaä2018 afirma que a informática jurídica é mais do que uma simples especialização.
 
@@ -29,7 +38,7 @@
 
 ### Artigos que apresentam *softwares*
 
-Revisão
+@Guarino2019 apresentam o programa *Argos*, uma plataforma de análise visual para dados abministrativos.
 
 ### Proteção de dados
 
