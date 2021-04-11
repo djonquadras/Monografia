@@ -4,8 +4,8 @@
 %
 \documentclass[
 ]{book}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
@@ -41,7 +41,8 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
 \makeatletter
@@ -50,7 +51,7 @@
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
-\usepackage{graphicx,grffile}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -68,12 +69,15 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
 \usepackage{booktabs}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
 \title{Aplicações de Ferramentas Computacionais e Estatísticas em um Escritório de Advocacia}
 \author{Djonathan Luiz de Oliveira Quadras}
-\date{2020-04-27}
+\date{2021-04-11}
 
 \begin{document}
 \maketitle
@@ -88,7 +92,7 @@
 
 Este é o site da minha monografia a ser apresentada ao Departamento de Engenharia de Produção e Sistemas (DEPS) da Universidade Federal de Santa Catarina (UFSC). Sinta-se a vontade para me enviar suas sugestões e críticas! :)
 
-Contato: \href{mailto:oliveira.ind.eng@gmail.com}{\nolinkurl{oliveira.ind.eng@gmail.com}}
+Contato: \href{mailto:djonquadras@gmail.com}{\nolinkurl{djonquadras@gmail.com}}
 
 \hypertarget{resumo}{%
 \chapter*{Resumo}\label{resumo}}

@@ -15,5 +15,5 @@ description: "Monografia"
 
 Este é o site da minha monografia a ser apresentada ao Departamento de Engenharia de Produção e Sistemas (DEPS) da Universidade Federal de Santa Catarina (UFSC). Sinta-se a vontade para me enviar suas sugestões e críticas! :)
 
-Contato: oliveira.ind.eng@gmail.com
+Contato: djonquadras@gmail.com
 
