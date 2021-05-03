@@ -1,0 +1,49 @@
+\centerline{`r toupper(params$universidade)`}
+\centerline{`r toupper(params$centro)`}
+\centerline{`r toupper(params$departamento)`}
+
+&nbsp;
+
+&nbsp;
+
+
+\centerline{`r toupper(params$autor)`}
+
+
+&nbsp;
+
+&nbsp;
+
+\centerline{`r toupper(params$titulo)`}
+
+&nbsp;
+
+&nbsp;
+
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+\begin{adjustwidth}{8cm}{2cm}
+\begin{singlespacing}
+`r params$preambulo`
+
+Orientador: `r params$orientador`
+
+\end{singlespacing}
+\end{adjustwidth}
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+
+&nbsp;
+
+\centerline{`r toupper(params$cidade)`}
+\centerline{`r toupper(params$ano)`}

@@ -1,11 +1,5 @@
 introdução
 revisão-da-literatura
-citações-gerais
-jurimetria-e-informática-jurídica
-artigos-que-apresentam-softwares
-proteção-de-dados
-a-ciência-de-dados
-modelos-estatísticos-e-de-inteligência-artificial
 metodologia
 resultados
 discussões-e-conclusão

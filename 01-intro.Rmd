@@ -1,10 +1,3 @@
 # Introdução
 
-A idéia de formalizar os processos de tomada de decisão para que possam ser automatizados por algoritmos tem sido uma idéia atraente para muitos estudiosos e profissionais da área jurídica [@Waltl2018; @liu2004]. De fato, em 1991 Fiedler já defendia a utilização de sistemas inteligentes e a aplicação de técnicas de inteligência artificial (IA) nos sistemas jurídiculos em detrimento da utilização de sistemas puramente "organizadores".
-
-@Fiedler1991 defende que a utilização da lógica no direito é algo necessário e aproxima a ideia de lógica jurídica com a lógica matemática.
-
-@Guarino2019 defende que o desenvolvimento de ferramentas inovadoras para a análise e processamento de dados é um dos principais desafios do desenvolvimento de Tecnologias da Informação e Comunicação (TIC).
-
-@Colombo2017 afirma que o interesse de desenvolver pesquisas quantitativas na área jurídica surgiu no Brasil apenas em 2011, quando os primeiros artigos foram publicados em periódicos locais.
-
+Working on it :)

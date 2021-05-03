@@ -1,5 +1,5 @@
 --- 
-title: "Aplicações de Ferramentas Computacionais e Estatísticas em um Escritório de Advocacia"
+title: "Logística e Cadeia de Suprimentos"
 author: "Djonathan Luiz de Oliveira Quadras"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
