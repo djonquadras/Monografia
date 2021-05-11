@@ -1,3 +1,5 @@
-# Metodologia
+# METODOLOGIA
 
-Working on it :)
+A metodologia a ser aplicada será de simulação.
+
+Esse capítulo será melhor desenvolvido quando for terminada a revisão de literatura.

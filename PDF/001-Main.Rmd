@@ -8,7 +8,7 @@ params:
   preambulo: "Monografia submetida ao departamento de Engenharia de Produção e Sistemas do Centro Tecnológico da Universidade Federal de Santa Catarina como requisito para obtenção do título de Engenheiro Eletricista."
   ano: "2021"
   orientador: "Prof. Dr. Enzo Morosini Frazzon"
-  titulo: "Em Breve"
+  titulo: "Comparação de modelos de otimização em cadeias de suprimentos"
   resumo: "Em Breve."
   palavras_chave: "Em breve"
 number_sections: true
@@ -24,6 +24,7 @@ header-includes:
   - \usepackage{tocloft}\tocloftpagestyle{empty} #Estilo da página do sumário sem rodapé, e principalmente, sem número de páginas.
   - \usepackage{fancyhdr}
   - \usepackage{lastpage}
+  - \usepackage{caption}
   - \usepackage[portuguese]{babel}
   - \floatplacement{figure}{H}
 

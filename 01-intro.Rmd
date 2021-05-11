@@ -1,3 +1,61 @@
-# Introdução
+# INTRODUÇÃO
 
-Working on it :)
+Nessa seção serão apresentados a contextuaização, 
+
+## CONTEXTUALIZAÇÃO
+
+A entrega de um produto manufaturado a um consumidor é geralmente precedida por diversas etapas executadas por diferentes departamentos de uma companhia. Tais departamentos, com o objetivo de simplificar os processos, trocam o mínimo de informações e tomam suas próximas decisões considerando ótimos locais e momentâneos. Consequentemente, considerando os sistemas como um todo, os resultados em nível de eficiência e eficácia tendem a ficar aquém do que poderiam. Portando, cada vez mais as indústrias estão tentando integrar seus processos de planejamento de produção e distribuição para otimizá-los simultaneamente, adquirindo melhores resultados (Scholz-Reiter et al., 2011).
+
+Como é possível ver em Scholz-Reiter et al. (2011), atualmente a coordenação entre os processos de planejamento de produção e programação da distribuição é simplificadamente feito embasados em pouquíssima informação trocada entre atores de uma cadeia de suprimentos, o que faz com que normalmente os modelos de tomada de decisão não consigam representar de forma satisfatório o ambiente dinâmico que realmente é uma cadeia de suprimentos. Sendo assim, novos conceitos no âmbito de comunicação se fazem necessários para melhor embasamento de métodos de otimização dos processos de produção e distribuição na cadeia de suprimentos. Chen (2004) por sua vez também reitera a importância da coordenação entre o planejamento de produção e distribuição e Z.-L. Chen & Vairaktarakis (2005) propõe um modelo de planejamento integrado da produção e distribuição. Mula et al. (2010) também discorre sobre tal importância e faz um levantamento sobre os modelos existentes de integração do planejamento da produção e dos transportes.
+
+Sistemas cyber-físicos são sistemas constituídos de entidades computacionais com forte conexão trabalhando de forma colaborativa dentro do mundo físico provendo e usando simultaneamente serviços de acesso e processamento de dados dentro de uma rede (Monostori et al., 2016). De acordo com Lee, Bagheri, & Kao (2015), a partir dos sistemas cyber-físicos máquinas conectadas a uma mesma rede conseguirão alcançar melhores desempenhos, colaborativas e resilientes. Sistemas cyber-físicos são comumente considerados como a porta para a quarta revolução industrial, denotada como Indústria 4.0, e podem ser a chave para a integração e sincronização de processos dentro da indústria e entre as indústrias em uma cadeia de suprimentos. O acesso a dados em tempo real e o compartilhamento de previsões de demanda podem tornar possíveis modelos de otimização que se adequem a dinamicidade do sistema, trazendo eficiência quase ótima ou até ótima para os processos (Arica & Powell, 2014).
+
+Os sistemas cyber-físicos podem alimentar, então, modelos de simulação e otimização, tornando-os cada vez mais reais, exercendo a função de twin-model. Tal proximidade com a realidade, bem como a coordenação entre dois problemas clássicos (como o de programação da produção e o de programação da distribuição) pode gerar problemas extremamente complexos, resultando em um problema matemático NP-Hard (DEVAPRIYA, FERREL e GEISMAR, 2016). (Devapriya, Ferrell, & Geismar, 2016) integra ambos os problemas de produção e distribuição em uma cadeia de produtos perecíveis e demonstra a dificuldade na obtenção de uma solução pro problema, que para 4 clientes pode ser resolvido em um centésimo de hora, mas com a adicição de mais um consumidor o tempo de solução ultrapassa 20 horas. Já a partir de 10 clientes, (Devapriya et al., 2016) não conseguiu obter um resultado ótimo, que demoraria cerca de 10 dias segundo a previsão, tendo que utilizar meta-heurísticas para a obtenção do mesmo.
+
+Lin & Chen (2015) e (Frazzon et al., 2017) propõem abordagens híbridas para lidar com sistemas complexos, que consiste em uma otimização adaptativa baseada em simulação. O modelo conceitual do método proposto por Frazzon et al. (2017) é apresentado na  Figura \@ref(fig:intro001), onde dados alimentam a simulação, que gera cenários e executa estratégias locais de otimização e fornece feedback para aprimorar a simulação. A simulação é uma ferramenta particularmente boa para lidar com ambientes dinâmicos que possuem comportamentos estocásticos, enquanto isso, estratégias de otimização podem gerar ótimos locais com baixo custo computacional.
+
+
+\begin{figure}
+\centering
+\caption{Modelo conceitual de otimização adaptativa baseada em simulação}
+  \centering
+  \includegraphics[width=.6\linewidth]{C:/ProjetosGithub/Monografia/Imagens/intro001.png}
+\caption*{Fonte: Frazzon et al. (2017)}
+\label{fig:intro001}
+\end{figure}
+
+
+```{r intro001, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap= "Modelo conceitual de otimização adaptativa baseada em simulação. Fonte: Frazzon et al. (2017)"}
+if (knitr::is_html_output()){
+knitr::include_graphics("C:/ProjetosGithub/Monografia/Imagens/intro001.png", dpi = NA)  
+}
+
+```
+
+O ganho computacional proveniente do uso de uma estratégia mais leve pode dar base para uma extensão dos modelos de planejamento integrado, tendo em vista que hoje inexiste um modelo de planejamento integrado que envolva tanto o planejamento do estoque de matéria prima quanto os planejamentos de produção e transportes.
+
+O presente projeto de pesquisa tem como objetivo comparar diferentes modelos de otimização para o problema de controle integrado de estoques de matéria prima, programação da produção e programação de transportes.
+
+
+## OBJETIVOS
+
+###  Objetivo geral
+
+O objetivo da presente trabalho é de comparar diferentes cenários de otimização para uma cadeia de suprimentos a fim de mensurar qual o melhor modelo proposto.
+
+### Objetivos específicos
+
+1. Realizar revisão bibliométrica e de conteúdo sobre os tópicos envolvidos;
+2. Revisar principais métodos / tecnologias de planejamento integrado;
+3. Comparar os resultados dos modelos já validados na literatura;
+4. Avaliar o desempenho dos modelos utilizando dados provenientes de uma potencial aplicação real, analisando potenciais ganhos em termos de desempenho operacional em cenários envolvendo comportamentos estocásticos.
+
+
+## DELIMITAÇÕES DO TRABALHO
+
+A implementação se limitará a considerar estoque de matéria-prima, produção e transporte. Áreas adjacentes podem estar presentes na simulação, mas não serão consideradas nas variáveis de decisão. 
+
+
+## ESTRUTURA DO TRABALHO
+
+Em desenvolvimento.

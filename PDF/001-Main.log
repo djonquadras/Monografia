@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.6)  21 APR 2021 08:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.6)  10 MAY 2021 22:51
 entering extended mode
 **./001-Main.tex
 (001-Main.tex
@@ -534,17 +534,40 @@ rs
 \f@nch@O@orf=\skip103
 ) (C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
-) (C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+) (C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+(C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen187
+\captionmargin@=\dimen188
+\captionwidth=\dimen189
+\caption@tempdima=\dimen190
+\caption@indent=\dimen191
+\caption@parindent=\dimen192
+\caption@hangindent=\dimen193
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count302
+\c@continuedfloat=\count303
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen194
+\caption@adjustwidth@linewidth=\dimen195
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+(C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)) (C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2021/01/26 3.53 The Babel package
 (C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
 File: babel.def 2021/01/26 3.53 Babel common definitions
-\babel@savecnt=\count302
-\U@D=\dimen187
+\babel@savecnt=\count304
+\U@D=\dimen196
 \l@babelnohyphens=\language79
 (C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count303
+\bbl@dirlevel=\count305
 *************************************
 * Local config file bblopts.cfg used
 *
@@ -557,43 +580,40 @@ se.ldf
 Language: portuges 2021/02/04 v1.2s Portuguese support from the babel system
 Package babel Info: Making " an active character on input line 143.
 ))
-\cslhangindent=\skip104
-\csllabelwidth=\skip105
-
 (C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count304
+\l__color_backend_stack_int=\count306
 \l__pdf_internal_box=\box62
 ) (001-Main.aux)
 \openout1 = `001-Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Info: Redefining \microtypecontext on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Info: Redefining \microtypecontext on input line 93.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 112.
+LaTeX Info: Redefining \showhyphens on input line 93.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -604,16 +624,16 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
-\scratchdimen=\dimen188
+\scratchcounter=\count307
+\scratchdimen=\dimen197
 \scratchbox=\box63
-\nofMPsegments=\count306
-\nofMParguments=\count307
+\nofMPsegments=\count308
+\nofMParguments=\count309
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count308
-\MPscratchDim=\dimen189
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen198
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
 \everyMPtoPDFconversion=\toks35
 )
 (C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -629,7 +649,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 )
-Package hyperref Info: Link coloring OFF on input line 112.
+Package hyperref Info: Link coloring OFF on input line 93.
 (C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -639,11 +659,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count311
+\c@section@level=\count313
 )
-LaTeX Info: Redefining \ref on input line 112.
-LaTeX Info: Redefining \pageref on input line 112.
-LaTeX Info: Redefining \nameref on input line 112.
+LaTeX Info: Redefining \ref on input line 93.
+LaTeX Info: Redefining \pageref on input line 93.
+LaTeX Info: Redefining \nameref on input line 93.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -688,21 +708,15 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 112.
+(lastpage)             ! on input line 93.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 [0
 
 
 {C:/Users/djonq/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [1
 
-] [2] (001-Main.lof)
-\tf@lof=\write3
-\openout3 = `001-Main.lof'.
-
-[3] (001-Main.lot)
-\tf@lot=\write4
-\openout4 = `001-Main.lot'.
-
-[4] (001-Main.toc
+] [2] (001-Main.lof
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
 .
 (C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
@@ -741,6 +755,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ))
+\tf@lof=\write3
+\openout3 = `001-Main.lof'.
+
+[3] (001-Main.lot)
+\tf@lot=\write4
+\openout4 = `001-Main.lot'.
+
+[4] (001-Main.toc)
 \tf@toc=\write5
 \openout5 = `001-Main.toc'.
 
@@ -751,19 +773,20 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{4.35004pt}.
 
 [6]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-11.
-(C:\Users\djonq\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+<C:/ProjetosGithub/Monografia/Imagens/intro001.png, id=65, 722.7pt x 542.025pt>
+
+File: C:/ProjetosGithub/Monografia/Imagens/intro001.png Graphic file (type png)
+
+<use C:/ProjetosGithub/Monografia/Imagens/intro001.png>
+Package pdftex.def Info: C:/ProjetosGithub/Monografia/Imagens/intro001.png  use
+d on input line 266.
+(pdftex.def)             Requested size: 273.15117pt x 204.86337pt.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.35004pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.35004pt}.
 
-[7
-
-]
+[7 <C:/ProjetosGithub/Monografia/Imagens/intro001.png (PNG copy)>]
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.35004pt, for example:
@@ -783,7 +806,13 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 4.35004pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.35004pt}.
 
-[10
+[10]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.35004pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.35004pt}.
+
+[11
 
 ]
 
@@ -791,7 +820,23 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 4.35004pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.35004pt}.
 
-[11
+[12
+
+]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.35004pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.35004pt}.
+
+[13
+
+]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.35004pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.35004pt}.
+
+[14
 
 ] 
 AED: lastpage setting LastPage
@@ -800,28 +845,23 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 4.35004pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.35004pt}.
 
-[12
-
-] (001-Main.aux) ) 
+[15] (001-Main.aux) ) 
 Here is how much of TeX's memory you used:
- 15047 strings out of 479334
- 227674 string characters out of 2857085
- 588522 words of memory out of 3000000
- 32036 multiletter control sequences out of 15000+200000
- 457373 words of font info for 113 fonts, out of 3000000 for 9000
+ 16255 strings out of 479334
+ 251139 string characters out of 2857085
+ 617164 words of memory out of 3000000
+ 33233 multiletter control sequences out of 15000+200000
+ 454242 words of font info for 113 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,11n,88p,676b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/djonq/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
-/lm/lm-ec.enc}{C:/Users/djonq/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/
-lm-ts1.enc}<C:/Users/djonq/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
-lmbx12.pfb><C:/Users/djonq/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
-lmbxi10.pfb><C:/Users/djonq/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
-/lmr10.pfb><C:/Users/djonq/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
-lmr12.pfb><C:/Users/djonq/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
-mri12.pfb>
-Output written on 001-Main.pdf (13 pages, 152524 bytes).
+ 85i,11n,88p,1409b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/djonq/AppData/Local/Programs/MiKTeX/fonts/enc/dv
+ips/lm/lm-ec.enc}<C:/Users/djonq/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/lm/lmbx12.pfb><C:/Users/djonq/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/lm/lmr10.pfb><C:/Users/djonq/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/lm/lmr12.pfb>
+Output written on 001-Main.pdf (16 pages, 180078 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 30817 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 198 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 28774 words of extra memory for PDF output out of 29859 (max. 10000000)
 
