@@ -16,6 +16,7 @@
 		<ActiveObjectClass>
 			<Id>1616357285858</Id>
 			<Name><![CDATA[Main]]></Name>
+			<AdditionalClassCode><![CDATA[double estoqueBobinaE230 = 0;]]></AdditionalClassCode>
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
 			<Generic>false</Generic>
 			<GenericParameter>
