@@ -1,4 +1,4 @@
-# METODOLOGIA
+# Metodologia
 
 A metodologia a ser aplicada será de simulação.
 

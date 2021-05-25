@@ -1,4 +1,3 @@
-fig:intro001
 introdução
 contextualização
 objetivos

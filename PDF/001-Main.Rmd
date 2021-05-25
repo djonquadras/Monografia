@@ -94,28 +94,28 @@ toc: false
 
 
 \pagestyle{plain}
-```{r echo=FALSE, child="C:/ProjetosGithub/Monografia/01-intro.Rmd"}
+```{r echo=FALSE, child="D:/github/Monografia/Monografia Digital/01-intro.Rmd"}
 ```
 
 \clearpage
 
 \newpage
 \pagestyle{plain}
-```{r echo=FALSE, child="C:/ProjetosGithub/Monografia/02-literature.Rmd"}
+```{r echo=FALSE, child="D:/github/Monografia/Monografia Digital/02-literature.Rmd"}
 ```
 
 \clearpage
 
 \newpage
 \pagestyle{plain}
-```{r echo=FALSE, child="C:/ProjetosGithub/Monografia/03-method.Rmd"}
+```{r echo=FALSE, child="D:/github/Monografia/Monografia Digital/03-method.Rmd"}
 ```
 
 \clearpage
 
 \newpage
 \pagestyle{plain}
-```{r echo=FALSE, child="C:/ProjetosGithub/Monografia/04-results.Rmd"}
+```{r echo=FALSE, child="D:/github/Monografia/Monografia Digital/04-results.Rmd"}
 ```
 
 \clearpage
@@ -123,14 +123,14 @@ toc: false
 
 \newpage
 \pagestyle{plain}
-```{r echo=FALSE, child="C:/ProjetosGithub/Monografia/05-conclusion.Rmd"}
+```{r echo=FALSE, child="D:/github/Monografia/Monografia Digital/05-conclusion.Rmd"}
 ```
 
 \clearpage
 
 \newpage
 \pagestyle{plain}
-```{r echo=FALSE, child="C:/ProjetosGithub/Monografia/06-references.Rmd"}
+```{r echo=FALSE, child="D:/github/Monografia/Monografia Digital/06-references.Rmd"}
 ```
 
 

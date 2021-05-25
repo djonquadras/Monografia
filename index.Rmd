@@ -1,14 +1,14 @@
 --- 
-title: "Logística e Cadeia de Suprimentos"
+title: "Comparação de modelos de otimização em cadeias de suprimentos"
 author: "Djonathan Luiz de Oliveira Quadras"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-bibliography: [book.bib]
+bibliography: book.bib
 documentclass: book
 biblio-style: apalike
 csl: associacao-brasileira-de-normas-tecnicas.csl
 link-citations: yes
-description: "Monografia"
+description: Monografia
 ---
 
 # Bem vindo! {-}

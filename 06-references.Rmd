@@ -1,4 +1,4 @@
-# REFERÊNCIAS BIBLIOGRÁFICAS {-}
+# Referências Bibliográficas {-}
 
 Arica, E., & Powell, D. J. (2014). A framework for ICT-enabled real-time production planning and control. Advances in Manufacturing, 2(2), 158–164. http://doi.org/10.1007/s40436-014-0070-5
 

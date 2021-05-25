@@ -4,13 +4,14 @@
 %
 \documentclass[
 ]{book}
-\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
+\usepackage{amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
+  \usepackage{amssymb}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
@@ -36,12 +37,12 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={Logística e Cadeia de Suprimentos},
+  pdftitle={Comparação de modelos de otimização em cadeias de suprimentos},
   pdfauthor={Djonathan Luiz de Oliveira Quadras},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs,array}
+\usepackage{longtable,booktabs}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -75,9 +76,9 @@
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
-\title{Logística e Cadeia de Suprimentos}
+\title{Comparação de modelos de otimização em cadeias de suprimentos}
 \author{Djonathan Luiz de Oliveira Quadras}
-\date{2021-05-10}
+\date{2021-05-24}
 
 \begin{document}
 \maketitle
@@ -101,12 +102,12 @@ Contato: \href{mailto:djonquadras@gmail.com}{\nolinkurl{djonquadras@gmail.com}}
 Working on it :)
 
 \hypertarget{introduuxe7uxe3o}{%
-\chapter{INTRODUÇÃO}\label{introduuxe7uxe3o}}
+\chapter{Introdução}\label{introduuxe7uxe3o}}
 
 Nessa seção serão apresentados a contextuaização,
 
 \hypertarget{contextualizauxe7uxe3o}{%
-\section{CONTEXTUALIZAÇÃO}\label{contextualizauxe7uxe3o}}
+\section{Contextualização}\label{contextualizauxe7uxe3o}}
 
 A entrega de um produto manufaturado a um consumidor é geralmente precedida por diversas etapas executadas por diferentes departamentos de uma companhia. Tais departamentos, com o objetivo de simplificar os processos, trocam o mínimo de informações e tomam suas próximas decisões considerando ótimos locais e momentâneos. Consequentemente, considerando os sistemas como um todo, os resultados em nível de eficiência e eficácia tendem a ficar aquém do que poderiam. Portando, cada vez mais as indústrias estão tentando integrar seus processos de planejamento de produção e distribuição para otimizá-los simultaneamente, adquirindo melhores resultados (Scholz-Reiter et al., 2011).
 
@@ -118,21 +119,12 @@ Os sistemas cyber-físicos podem alimentar, então, modelos de simulação e oti
 
 Lin \& Chen (2015) e (Frazzon et al., 2017) propõem abordagens híbridas para lidar com sistemas complexos, que consiste em uma otimização adaptativa baseada em simulação. O modelo conceitual do método proposto por Frazzon et al.~(2017) é apresentado na Figura \ref{fig:intro001}, onde dados alimentam a simulação, que gera cenários e executa estratégias locais de otimização e fornece feedback para aprimorar a simulação. A simulação é uma ferramenta particularmente boa para lidar com ambientes dinâmicos que possuem comportamentos estocásticos, enquanto isso, estratégias de otimização podem gerar ótimos locais com baixo custo computacional.
 
-\begin{figure}
-\centering
-\caption{Modelo conceitual de otimização adaptativa baseada em simulação}
-  \centering
-  \includegraphics[width=.6\linewidth]{C:/ProjetosGithub/Monografia/Imagens/intro001.png}
-\caption*{Fonte: Frazzon et al. (2017)}
-\label{fig:intro001}
-\end{figure}
-
 O ganho computacional proveniente do uso de uma estratégia mais leve pode dar base para uma extensão dos modelos de planejamento integrado, tendo em vista que hoje inexiste um modelo de planejamento integrado que envolva tanto o planejamento do estoque de matéria prima quanto os planejamentos de produção e transportes.
 
 O presente projeto de pesquisa tem como objetivo comparar diferentes modelos de otimização para o problema de controle integrado de estoques de matéria prima, programação da produção e programação de transportes.
 
 \hypertarget{objetivos}{%
-\section{OBJETIVOS}\label{objetivos}}
+\section{Objetivos}\label{objetivos}}
 
 \hypertarget{objetivo-geral}{%
 \subsection{Objetivo geral}\label{objetivo-geral}}
@@ -156,17 +148,17 @@ O objetivo da presente trabalho é de comparar diferentes cenários de otimizaç
 \end{enumerate}
 
 \hypertarget{delimitauxe7uxf5es-do-trabalho}{%
-\section{DELIMITAÇÕES DO TRABALHO}\label{delimitauxe7uxf5es-do-trabalho}}
+\section{Delimitações do Trabalho}\label{delimitauxe7uxf5es-do-trabalho}}
 
 A implementação se limitará a considerar estoque de matéria-prima, produção e transporte. Áreas adjacentes podem estar presentes na simulação, mas não serão consideradas nas variáveis de decisão.
 
 \hypertarget{estrutura-do-trabalho}{%
-\section{ESTRUTURA DO TRABALHO}\label{estrutura-do-trabalho}}
+\section{Estrutura do Trabalho}\label{estrutura-do-trabalho}}
 
 Em desenvolvimento.
 
 \hypertarget{revisuxe3o-da-literatura}{%
-\chapter{REVISÃO DA LITERATURA}\label{revisuxe3o-da-literatura}}
+\chapter{Revisão da Literatura}\label{revisuxe3o-da-literatura}}
 
 Ao longo dos anos, prevaleceu a visão de uma empresa que trabalha não isolada, mas em conjunto com outras empresas (Chae et al., 2014). Assim, estruturas da cadeia de suprimentos cada vez mais complexas em ambientes dinâmicos exigem capacidade de resposta e produtividade, nas quais os recursos existentes do sistema são empregados da maneira mais eficiente possível (Ehm et al., 2015; Frazzon, Albrecht, et al., 2018). A indústria 4.0 e sua ampla gama de conceitos e tecnologias (Lasi et al., 2014) podem contribuir para a materialização da produtividade e da capacidade de resposta. No entanto, conectar muitas organizações, operações e clientes leva a um cenário de alta incerteza de diferentes fontes (Peidro et al., 2009). No entanto, isso deve ser considerado nas questões de planejamento e controle, a fim de obter políticas e planos robustos.
 
@@ -175,25 +167,25 @@ Para lidar com esse comportamento, a otimização baseada em simulação é uma 
 A combinação de modelos de simulação e programação matemática em um esquema iterativo, visa avaliar os efeitos das decisões no desempenho de um sistema de manufatura. Assim, trabalhos nesse sentido concentram-se na integração de diferentes metodologias de modelagem, a fim de combinar as vantagens oferecidas por cada uma delas na solução de problemas complexos. Os modelos analíticos buscam soluções que avaliam os valores ideais das variáveis de decisão. No entanto, as soluções fornecidas são geralmente limitadas em seus campos de aplicação devido a premissas restritivas predeterminadas. Os modelos de simulação, por sua vez, são mais capazes de capturar o comportamento real do sistema, mas não são adequados para resolver problemas de otimização. A integração de modelos analíticos e de simulação, também chamados de modelos híbridos, leva a representar uma opção promissora para melhores resultados (Lin e Chen, 2015). Assim, os modelos híbridos buscam combinar as vantagens e evitar as desvantagens de ambas as ferramentas (Peidro et al., 2009).
 
 \hypertarget{metodologia}{%
-\chapter{METODOLOGIA}\label{metodologia}}
+\chapter{Metodologia}\label{metodologia}}
 
 A metodologia a ser aplicada será de simulação.
 
 Esse capítulo será melhor desenvolvido quando for terminada a revisão de literatura.
 
 \hypertarget{resultados-e-discussuxf5es}{%
-\chapter{RESULTADOS E DISCUSSÕES}\label{resultados-e-discussuxf5es}}
+\chapter{Resultados e Discussões}\label{resultados-e-discussuxf5es}}
 
 Working on it :)
 
 \hypertarget{conclusuxe3o}{%
-\chapter{CONCLUSÃO}\label{conclusuxe3o}}
+\chapter{Conclusão}\label{conclusuxe3o}}
 
 Working on it :)
 
 \hypertarget{referuxeancias-bibliogruxe1ficas}{%
-\chapter*{REFERÊNCIAS BIBLIOGRÁFICAS}\label{referuxeancias-bibliogruxe1ficas}}
-\addcontentsline{toc}{chapter}{REFERÊNCIAS BIBLIOGRÁFICAS}
+\chapter*{Referências Bibliográficas}\label{referuxeancias-bibliogruxe1ficas}}
+\addcontentsline{toc}{chapter}{Referências Bibliográficas}
 
 Arica, E., \& Powell, D. J. (2014). A framework for ICT-enabled real-time production planning and control. Advances in Manufacturing, 2(2), 158--164. \url{http://doi.org/10.1007/s40436-014-0070-5}
 

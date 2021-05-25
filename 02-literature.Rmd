@@ -1,4 +1,4 @@
-# REVISÃO DA LITERATURA
+# Revisão da Literatura
 
 Ao longo dos anos, prevaleceu a visão de uma empresa que trabalha não isolada, mas em conjunto com outras empresas (Chae et al., 2014). Assim, estruturas da cadeia de suprimentos cada vez mais complexas em ambientes dinâmicos exigem capacidade de resposta e produtividade, nas quais os recursos existentes do sistema são empregados da maneira mais eficiente possível (Ehm et al., 2015; Frazzon, Albrecht, et al., 2018). A indústria 4.0 e sua ampla gama de conceitos e tecnologias (Lasi et al., 2014) podem contribuir para a materialização da produtividade e da capacidade de resposta. No entanto, conectar muitas organizações, operações e clientes leva a um cenário de alta incerteza de diferentes fontes (Peidro et al., 2009). No entanto, isso deve ser considerado nas questões de planejamento e controle, a fim de obter políticas e planos robustos.
 
