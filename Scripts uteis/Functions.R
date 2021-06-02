@@ -43,11 +43,12 @@ getLista <- function(caminho, sheet = "RawMaterial", ...){
     
   }
   
-  listOfMaterial <- listOfMaterial[ , ! names(listOfMaterial) %in% c("ResumoMP", "Nivel", "Componente")]
+  listOfMaterial <- listOfMaterial[ , ! names(listOfMaterial) %in% c("Nivel", "Componente")]
   listOfMaterial <- listOfMaterial[!(listOfMaterial$DemandaE230 + listOfMaterial$DemandaE170 + listOfMaterial$Demanda1006) == 0, ]
   listOfMaterial <- listOfMaterial[!is.na(listOfMaterial$DemandaE230), ]
   listOfMaterial <- listOfMaterial[!is.na(listOfMaterial$DemandaE170), ]
   listOfMaterial <- listOfMaterial[!is.na(listOfMaterial$Demanda1006), ]
+  listOfMaterial <- listOfMaterial[listOfMaterial$Unidade == "UN",]
   return(listOfMaterial)
 }
 
