@@ -6230,6 +6230,7 @@ import java.util.Random;
 
 public class GA {
 
+	int oi = 0;
     public static Population partI(Population population, int[] upperLimit, double crossoverRate, double mutProb, int[] lowerLimit){
         Population sons = crossover(population, crossoverRate);
         Population mutated = mutation(population, sons, mutProb, lowerLimit, upperLimit);
