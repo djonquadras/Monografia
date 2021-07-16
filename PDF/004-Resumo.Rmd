@@ -1,7 +1,0 @@
-\centerline{\textbf{RESUMO}}
-
-`r params$resumo`
-
-&nbsp;
-
-**Keywords**: `r params$palavras_chave`
