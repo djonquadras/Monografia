@@ -1,5 +1,5 @@
 --- 
-title: "Comparação de modelos de otimização em cadeias de suprimentos"
+title: "Otimização Adaptativa Baseada em Simulação para a programação da produção em sistemas flow shop: um estudo comparativo"
 author: "Djonathan Luiz de Oliveira Quadras"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -11,9 +11,30 @@ link-citations: yes
 description: Monografia
 ---
 
-# Bem vindo! {-}
+# Apresentação {-}
 
-Este é o site da minha monografia a ser apresentada ao Departamento de Engenharia de Produção e Sistemas (DEPS) da Universidade Federal de Santa Catarina (UFSC). Sinta-se a vontade para me enviar suas sugestões e críticas! :)
+Trabalho Conclusão de Curso de Graduação em Engenharia de Produção Elétrica do Centro Tecnológico da Universidade Federal de Santa Catarina como requisito para a obtenção do título de Bacharel em Engenharia Elétrica com Habilitação em Engenharia de Produção.
 
-Contato: djonquadras@gmail.com
+**Orientador:** Prof. Dr.-Ing Enzo Morosini Frazzon.
 
+**Coorientador:** Me. Lúcio Galvão Mendes.
+
+
+Este trabalho é dedicado em memória do meu bocó, Valerio Quadras.
+
+## Agradecimentos {-}
+
+Agradeço aos meus pais, Luiz e Eliana, e aos meus avós, Valerio (in memoriam) e Terezinha, por todo o apoio, por estarem sempre comigo me apoiando, e por sempre terem acreditado em mim. Agradeço à minha namorada, Camila Bertelli, por toda a ajuda (inclusive na elaboração deste trabalho), todo o companheirismo, toda a compreensão e, principalmente, por ter me feito feliz até nos períodos em que não achei que conseguiria. Agradeço à minha sogra, Roseli, e ao meu cunhado, Matheus, por me acolherem e serem minha segunda família.
+
+Agradeço a todos os meus amigos que Florianópolis me proporcionou, e principalmente aos meus companheiros da República da Chatuba, André, Gabriel Diz e Renan, e ao meu primo que tive o prazer de reencontrar, Valerio. Vocês fizeram todos os dias valerem a pena, e me mostraram que mesmo a pior das situações devem ser vistas como uma piada em potencial. Agradeço a todos os companheiros que estiveram comigo em minha passagem pela Colômbia, em especial a minha querida amiga Giovanna, minha fiel escudeira, o Sancho da minha Pança.
+
+Agradeço a todos os meus companheiros do ProLogIS, em especial à Marina, ao Ícaro, ao Matheus e ao Lúcio. Sem vocês eu não conseguiria estar aqui hoje.
+
+Agradeço a todos os professores da UFSC, CUC e UDESC que fizeram parte de todo este trajeto. Em especial ao professor Enzo por todos estes anos de trabalho em conjunto, por toda a confiança e por todos os ensinamentos; e ao professor Carlos Taboada por toda a amizade e por ter me proporcionado minha primeira experiência internacional (e uma das melhores experiências de minha vida). Definitivamente, “se cheguei até aqui, foi porque me apoiei sobre o ombro de gigantes”. 
+
+Por fim, agradeço a todos aqueles que defendem e acreditam na ciência e que combatem diariamente o obscurantismo científico. 
+
+
+> "Pra entender, basta seiscentos anos de estudo... Ou seis segundos de atenção."
+>
+> `r tufte::quote_footer('--- GESSINGER, 1988')`

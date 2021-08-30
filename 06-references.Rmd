@@ -1,38 +1,3 @@
 # Referências Bibliográficas {-}
 
-Arica, E., & Powell, D. J. (2014). A framework for ICT-enabled real-time production planning and control. Advances in Manufacturing, 2(2), 158–164. http://doi.org/10.1007/s40436-014-0070-5
-
-Banks, J. (1998). Handbook of simulation: principles, methodology, advances, applications, and practice. John Wiley & Sons.
-
-Banks, J., Carson, J., Nelson, B., & Nicol, D. (2000). Discrete-Event System Simulation. Englewood Cliffs, NJ, USA: Prentice Hall.
-
-Chen, Z. (2004). Integrated Production and Distribution Operations: Taxonomy, Models, and Review. Handbook of Quantitative Supply Chain Analysis Modeling in the EBusiness Era, 1–32. http://doi.org/10.1007/978-1-4020-7953-5_17
-
-Chen, Z.-L., & Vairaktarakis, G. L. (2005). Integrated Scheduling of Production and Distribution Operations. Management Science, 51(4), 614–628. http://doi.org/10.1287/mnsc.1040.0325
-
-Christopher, M. (2005). Logistics and supply chain management: creating value-added networks. Pearson Education.
-
-Devapriya, P., Ferrell, W., & Geismar, N. (2016). Integrated Production and Distribution Scheduling with a Perishable Product. European Journal of Operational Research, 259, 906–916. http://doi.org/10.1016/j.ejor.2016.09.019
-
-Frazzon, E. M., Albrecht, A., Pires, M., Israel, E., Kück, M., & Freitag, M. (2017). Hybrid approach for the integrated scheduling of production and transport processes along supply chains. International Journal of Production Research, 7543(July), 0. http://doi.org/10.1080/00207543.2017.1355118
-
-Ivanov, D. (2010). An adaptive framework for aligning (re)planning decisions on supply chain strategy, design, tactics, and operations. International Journal of Production Research, 48(13), 3999–4017. http://doi.org/10.1080/00207540902893417
-
-Lee, J., Bagheri, B., & Kao, H. A. (2015). A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems. Manufacturing Letters, 3, 18–23. http://doi.org/10.1016/j.mfglet.2014.12.001
-
-Lin, J. T., & Chen, C.-M. (2015). Simulation optimization approach for hybrid flow shop scheduling problem in semiconductor back-end manufacturing. Simulation Modelling Practice and Theory, 51, 100–114. http://doi.org/10.1016/j.simpat.2014.10.008
-
-Monostori, L., Kádár, B., Bauernhansl, T., Kondoh, S., Kumara, S., Reinhart, G., … Ueda, K. (2016). Cyber-physical systems in manufacturing. CIRP Annals - Manufacturing Technology. http://doi.org/10.1016/j.cirp.2016.06.005
-
-Mula, J., Peidro, D., Díaz-Madroñero, M., & Vicens, E. (2010). Mathematical programming models for supply chain production and transport planning. European Journal of Operational Research, 204(3), 377–390. http://doi.org/10.1016/j.ejor.2009.09.008
-
-Narasimhan, R., & Mahapatra, S. (2004). Decision models in global supply chain management. Industrial Marketing Management, 33(1), 21–27. http://doi.org/10.1016/j.indmarman.2003.08.006
-
-O’Kane, J. F., Spenceley, J. R., & Taylor, R. (2000). Simulation as an essential tool for advanced manufacturing technology problems. Journal of Materials Processing Technology, 107(1–3), 412–424. http://doi.org/10.1016/S0924-0136(00)00689-0
-
-Pirard, F., Iassinovski, S., & Riane, F. (2011). A simulation based approach for supply network control. International Journal of Production Research, 49(24), 7205–7226. http://doi.org/10.1080/00207543.2010.518726
-
-Sakurada, N., & Miyake, D. I. (2009). Aplicação de simuladores de eventos discretos no processo de modelagem de sistemas de operações de serviços. Gestão & Produção, 16(1), 25–43. http://doi.org/10.1590/S0104-530X2009000100004
-
-Scholz-Reiter, B., Makuschewitz, T., Novaes, A. G. N. N., Frazzon, E. M., <suffix>Jr.</suffix>, O. F. L., & Lima, O. F. (2011). An approach for the sustainable integration of production and transportation scheduling. International Journal of Logistics Systems and Management, 10(2), 158. http://doi.org/10.1504/IJLSM.2011.042626
-
+Working on it :)

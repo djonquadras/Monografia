@@ -3,9 +3,12 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Monografia</a></li>
+        <li><a href="./">Monografia Djonathan Quadras</a></li>
       after: |
-        <li><a href="http://lattes.cnpq.br/9927407566061611" target="blank">Meu Lattes!</a></li>
+        <li><a href="http://lattes.cnpq.br/9927407566061611" target="blank">Lattes</a></li>
+        <li><a href="https://www.linkedin.com/in/djonquadras/" target="blank">LinkedIn</a></li>
+        <li><a href="https://github.com/djonquadras/GA" target="blank">Algoritmo Genético</a></li>
+        <li><a href="https://github.com/djonquadras/MonografiaDjonathanQuadras/tree/master/Simula%C3%A7%C3%B5es%20Anylogic/MonografiaDjonathanQuadras" target="blank">Simulações AnyLogic</a></li>
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:

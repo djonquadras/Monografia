@@ -1,0 +1,160 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Otimização Adaptativa Baseada em Simulação para a programação da produção em sistemas flow shop: um estudo comparativo},
+  pdfauthor={Djonathan Luiz de Oliveira Quadras},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{Otimização Adaptativa Baseada em Simulação para a programação da produção em sistemas flow shop: um estudo comparativo}
+\author{Djonathan Luiz de Oliveira Quadras}
+\date{2021-08-30}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{apresentauxe7uxe3o}{%
+\chapter*{Apresentação}\label{apresentauxe7uxe3o}}
+\addcontentsline{toc}{chapter}{Apresentação}
+
+Trabalho Conclusão de Curso de Graduação em Engenharia de Produção Elétrica do Centro Tecnológico da Universidade Federal de Santa Catarina como requisito para a obtenção do título de Bacharel em Engenharia Elétrica com Habilitação em Engenharia de Produção.
+
+\textbf{Orientador:} Prof.~Dr.-Ing Enzo Morosini Frazzon.
+
+\textbf{Coorientador:} Me. Lúcio Galvão Mendes.
+
+Este trabalho é dedicado em memória do meu bocó, Valerio Quadras.
+
+\hypertarget{agradecimentos}{%
+\section*{Agradecimentos}\label{agradecimentos}}
+\addcontentsline{toc}{section}{Agradecimentos}
+
+Agradeço aos meus pais, Luiz e Eliana, e aos meus avós, Valerio (in memoriam) e Terezinha, por todo o apoio, por estarem sempre comigo me apoiando, e por sempre terem acreditado em mim. Agradeço à minha namorada, Camila Bertelli, por toda a ajuda (inclusive na elaboração deste trabalho), todo o companheirismo, toda a compreensão e, principalmente, por ter me feito feliz até nos períodos em que não achei que conseguiria. Agradeço à minha sogra, Roseli, e ao meu cunhado, Matheus, por me acolherem e serem minha segunda família.
+
+Agradeço a todos os meus amigos que Florianópolis me proporcionou, e principalmente aos meus companheiros da República da Chatuba, André, Gabriel Diz e Renan, e ao meu primo que tive o prazer de reencontrar, Valerio. Vocês fizeram todos os dias valerem a pena, e me mostraram que mesmo a pior das situações devem ser vistas como uma piada em potencial. Agradeço a todos os companheiros que estiveram comigo em minha passagem pela Colômbia, em especial a minha querida amiga Giovanna, minha fiel escudeira, o Sancho da minha Pança.
+
+Agradeço a todos os meus companheiros do ProLogIS, em especial à Marina, ao Ícaro, ao Matheus e ao Lúcio. Sem vocês eu não conseguiria estar aqui hoje.
+
+Agradeço a todos os professores da UFSC, CUC e UDESC que fizeram parte de todo este trajeto. Em especial ao professor Enzo por todos estes anos de trabalho em conjunto, por toda a confiança e por todos os ensinamentos; e ao professor Carlos Taboada por toda a amizade e por ter me proporcionado minha primeira experiência internacional (e uma das melhores experiências de minha vida). Definitivamente, ``se cheguei até aqui, foi porque me apoiei sobre o ombro de gigantes''.
+
+Por fim, agradeço a todos aqueles que defendem e acreditam na ciência e que combatem diariamente o obscurantismo científico.
+
+\begin{quote}
+``Pra entender, basta seiscentos anos de estudo\ldots{} Ou seis segundos de atenção.''
+
+\hfill --- GESSINGER, 1988
+\end{quote}
+
+\hypertarget{resumo}{%
+\chapter*{Resumo}\label{resumo}}
+\addcontentsline{toc}{chapter}{Resumo}
+
+Working on it :)
+
+\hypertarget{introduuxe7uxe3o}{%
+\chapter{Introdução}\label{introduuxe7uxe3o}}
+
+Working on it :)
+
+\hypertarget{revisuxe3o-da-literatura}{%
+\chapter{Revisão da Literatura}\label{revisuxe3o-da-literatura}}
+
+Working on it :)
+
+\hypertarget{metodologia}{%
+\chapter{Metodologia}\label{metodologia}}
+
+Working on it :)
+
+\hypertarget{resultados-e-discussuxf5es}{%
+\chapter{Resultados e Discussões}\label{resultados-e-discussuxf5es}}
+
+Working on it :)
+
+\hypertarget{conclusuxe3o}{%
+\chapter{Conclusão}\label{conclusuxe3o}}
+
+Working on it :)
+
+\hypertarget{referuxeancias-bibliogruxe1ficas}{%
+\chapter*{Referências Bibliográficas}\label{referuxeancias-bibliogruxe1ficas}}
+\addcontentsline{toc}{chapter}{Referências Bibliográficas}
+
+Working on it :)
+
+  \bibliography{book.bib}
+
+\end{document}
